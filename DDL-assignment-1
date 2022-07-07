@@ -1,0 +1,46 @@
+Follow this steps to integrate sql server with visual studio code:
+- Click on the manage button in the bottom left corner of VSCode (ctrl + shift+ x)
+- In the search bar type sql and select SQL Server (mssql)
+- Install the mssql plugin
+- Click on the SQL Server tab(ctrl + alt + d) on the left side of visual studio 
+- In the connections area, click on the + sign to open a new connection
+- Copy the server name from your sql server and paste it and hit enter
+- Provide the database name that you want to connect and hit enter
+- Select integrated login for authentication type and hit enter
+- Provide database name as your profile name and hit enter
+
+To create a new query, go to the database profile you created and right click-->new qeury.
+
+In this assignment, you will create 3 tables and push the files to Github.
+
+Step1. Go to github https://github.com/DiaaTech/HR and copy the HR database repo link.
+Step2. Clone the repo under your projects folder locally.
+Step3. Create a new branch with your name.
+Step4. Read the requirements below.
+Step5. Create a new file for every question and add your SQL statements in each file.
+Step6. Save the files and provide table names as file names.
+Step7. Do git status, and git add the files and commit.
+Step8. Push your changes to remote.
+
+Questions
+-----------
+1. Create an employee table with the following requirements.
+- emp_id should not be NULL
+- first_name should not be NULL
+- last_name should not be NULL
+- date_of_birth should not be NULL
+- salary might include after decimal point digits
+- department_id should not be NULL
+
+2. Create a departments table with the following requirements.
+- department_id should not be NULL
+- department_name should not be NULL
+- number_of_employees 
+
+3. Create a jobs table with the following requirements.
+- job_id should not be NULL
+- job_title 
+- min_salary should not be NULL, might include digits after decimal point
+- max_salary should not be NULL, might include digits after decimal point
+
+DON'T FORGET TO CREATE A NEW FILE FOR EVERY QUESTION AND NAME THE FILES AS THE TABLE NAMES.

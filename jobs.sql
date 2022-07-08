@@ -1,6 +1,7 @@
-CREATE table departments
+CREATE TABLE JOBS
 (
- department_id int primary key not null,
-number_of_employees varchar(100),
-department_name int
+    job_id int primary key NOT NULL,
+    job_title int,
+    MIN_SALARY float NOT NULL,
+    MAX_SALARY float NOT NULL
 )

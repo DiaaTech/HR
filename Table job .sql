@@ -8,4 +8,5 @@ CREATE TABLE JOBS
     MIN_SALARY DECIMAL(10,2) NOT NULL,
     MAX_SALARY DECIMAL(20) NOT NULL,
     JOB_NAME INT,
+    -- Please read the assignment questions--
 )

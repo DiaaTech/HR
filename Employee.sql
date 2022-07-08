@@ -1,10 +1,9 @@
-REATE DATABASE EMPLOYEE;
-CREATE TABLE EMPLOYEE
+create table employee
 (
-    EMPLOYEE_ID INT NOT NULL,
-    FIRST_NAME VARCHAR(50) NOT NULL,
-    LAST_NAME VARCHAR(50) NOT NULL,
-    DOB DATE,
+    emp_id int primary key NOT NULL,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    date_of_birth date,
     SALARY DECIMAL(4,2),
-    EMPLOYEE_NAME INT NOT NULL,
+    department_id INT NOT NULL
 )

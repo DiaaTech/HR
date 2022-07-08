@@ -1,9 +1,7 @@
 
-USE HRdb
-CREATE TABLE Jobs_table
+CREATE TABLE Jobs
 (
-Job_id INT NOT NULL,
-  -- PRIMARY KEY??--
+Job_id INT PRIMARY KEY NOT NULL,
 Job_title VARCHAR (40),
 Salary DECIMAL (8,2) NOT NULL,
 )

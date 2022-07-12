@@ -6,4 +6,3 @@ Min_salary FLOAT,
 Max_salary FLOAT,
 Number_of_employees INT
 )
-f

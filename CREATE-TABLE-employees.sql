@@ -1,0 +1,12 @@
+
+CREATE TABLE Employee
+
+(
+Emp_id INT PRIMARY KEY IDENTITY (1,1) NOT NULL,
+
+First_name VARCHAR (20) NOT NULL,
+Last_name VARCHAR (20) NOT NULL,
+Date_of_Birth DATE NOT NULL, 
+Salary DECIMAL (6,3),
+Department_id VARCHAR NOT NULL
+)

@@ -1,0 +1,19 @@
+CREATE  table department
+(
+ department_id INT not null,
+ department_name VARCHAR ,
+ number_of_emoloyees INT,
+
+ 
+
+
+
+ 
+ 
+ )
+
+
+
+
+
+
